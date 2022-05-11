@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 1537px;
+    position: fixed;
+}
+
+.container{
+    background-color: rgb(255, 105, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.characters{
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.characters a {
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+}
+
+.logo{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.symbols{
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.symbols a{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+}
