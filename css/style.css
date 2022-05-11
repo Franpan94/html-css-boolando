@@ -48,3 +48,25 @@ header{
     color: white;
     margin: 2px;
 }
+
+main{
+    width: calc(100% / 3 -20px);
+}
+
+.card-one{
+       display: flex;
+      }
+
+.card-one img{
+    width: 200px;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+
+
+
+    
+    
+
+
