@@ -7,6 +7,7 @@
 header{
     width: 1537px;
     position: fixed;
+    z-index: 1;
 }
 
 .container{
@@ -49,16 +50,97 @@ header{
     margin: 2px;
 }
 
-.card{
+.cards{
     display: flex;
+    flex-wrap: wrap;
     width: 1250px;
     margin: auto;
-    width: calc(100% / 3 -20px);
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.card{
+    width: calc(100% / 3 - 20px);
+    position: relative;
 }
 
 .photo-one{
     width: 300px;
-    margin-top: 80px;
+    margin-top: 80px;    
+}
+
+.figure{
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    background-color: white;
+    width: 30px;
+    text-align: center;
+}
+
+.number{
+    background-color: red;
+    width: 40px;
+    padding: 2px;
+    color: white;
+    position: absolute;
+    right: 355px;
+    bottom: 90px;
+}
+
+.information{
+    background-color: green;
+    width: 85px;
+    padding: 2px;
+    color: white;
+    position: absolute;
+    right: 265px;
+    bottom: 90px;
+}
+
+.relax{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price{
+    color: red;
+}
+
+
+ .figure:hover{
+    display: block;
+    color: red;
+    cursor: pointer;
+}
+
+.photo-one:hover{
+    display: block;
+    background-image: url(../img/1b.webp);
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(26, 26, 26);
+}
+
+.finish{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+
+.finish h2{
+    color: white;
+}
+
+.finish a{
+    text-decoration: none;
+    color: white;
+    margin: 7px;
 }
 
 
