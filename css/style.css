@@ -49,19 +49,19 @@ header{
     margin: 2px;
 }
 
-main{
+.card{
+    display: flex;
+    width: 1250px;
+    margin: auto;
     width: calc(100% / 3 -20px);
 }
 
-.card-one{
-       display: flex;
-      }
-
-.card-one img{
-    width: 200px;
+.photo-one{
+    width: 300px;
     margin-top: 80px;
-    margin-left: 160px;
 }
+
+
 
 
 
