@@ -69,6 +69,20 @@ header{
     margin-top: 80px;    
 }
 
+.photo-two{
+    width: 300px;
+    margin-top: 80px; 
+    display: none;
+}
+
+.card:hover .photo-one{
+    display: none;
+}
+
+.card:hover .photo-two{
+    display: block;
+}
+
 .figure{
     position: absolute;
     top: 90px;
@@ -98,6 +112,16 @@ header{
     bottom: 90px;
 }
 
+.information2{
+    background-color: green;
+    width: 85px;
+    padding: 2px;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+}
+
 .relax{
     font-size: 20px;
     font-weight: bold;
@@ -105,6 +129,7 @@ header{
 
 .price{
     color: red;
+    font-weight: bold;
 }
 
 
@@ -142,13 +167,3 @@ footer{
     color: white;
     margin: 7px;
 }
-
-
-
-
-
-
-    
-    
-
-
