@@ -77,10 +77,12 @@ header{
 
 .card:hover .photo-one{
     display: none;
+    cursor: pointer;
 }
 
 .card:hover .photo-two{
     display: block;
+    cursor: pointer;
 }
 
 .figure{
@@ -136,12 +138,6 @@ header{
  .figure:hover{
     display: block;
     color: red;
-    cursor: pointer;
-}
-
-.photo-one:hover{
-    display: block;
-    background-image: url(../img/1b.webp);
     cursor: pointer;
 }
 
